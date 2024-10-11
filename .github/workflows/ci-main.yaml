@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test-application:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,7 +21,7 @@ jobs:
       - name: Run tests
         run: go test
 
-    build-application:
+    build:
       needs: test-application
       runs-on: ubuntu-latest
 
