@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	result := sum(20, 20)
+	result := sum(30, 20)
 	fmt.Printf("The result is: %d\n", result)
 }
 
